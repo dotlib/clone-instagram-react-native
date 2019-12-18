@@ -61,19 +61,6 @@ class New extends Component {
     );
   };
 
-  handleSubmit = async () => {
-    const data = new FormData();
-    data.append('image', this.state.image);
-    data.append('author', this.state.author);
-    data.append('place', this.state.place);
-    data.append('description', this.state.description);
-    data.append('hashtags', this.state.hashtags);
-
-    await api.post('posts', data);
-
-    this.props.navigation.goBack();
-  };
-
   render() {
     return (
       <View style={styles.container}>
@@ -127,9 +114,7 @@ class New extends Component {
           onChange={hashtags => this.setState({hashtags})}
         />
 
-        <TouchableOpacity
-          style={styles.shareButton}
-          onPress={this.handleSubmit}>
+        <TouchableOpacity style={styles.shareButton} onPress={() => {}}>
           <Text style={styles.shareButtonText}>Compartilhar</Text>
         </TouchableOpacity>
       </View>

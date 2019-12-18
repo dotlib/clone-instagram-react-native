@@ -18,8 +18,7 @@
     "react-native-image-picker": "^1.1.0",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^1.10.3",
-    "reactotron-react-native": "^4.0.2",
-    "socket.io-client": "^2.3.0"
+    "reactotron-react-native": "^4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",

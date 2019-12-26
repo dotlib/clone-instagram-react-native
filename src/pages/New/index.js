@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import {View, TouchableOpacity, Text, TextInput, Image} from 'react-native';
 import ImagePicker from 'react-native-image-picker';
 
-// Services
-import api from '~/services/api';
-
 // Styles
 import styles from './styles';
 

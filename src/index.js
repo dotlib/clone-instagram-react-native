@@ -1,5 +1,4 @@
 import React from 'react';
-import {YellowBox} from 'react-native';
 
 import '~/config/ReactotronConfig';
 
